@@ -1,0 +1,17 @@
+{
+  "admin": {
+    "name": "admin",
+    "permissions": [
+      "*"
+    ],
+    "members": [
+      "BOT_OWNER_NAME",
+      "channel"
+    ]
+  },
+  "global": {
+    "name": "global",
+    "permissions": [],
+    "members": []
+  }
+}

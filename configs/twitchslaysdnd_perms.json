@@ -1,0 +1,17 @@
+{
+  "admin": {
+    "name": "admin",
+    "permissions": [
+      "*"
+    ],
+    "members": [
+      "bot_owner_name",
+      "twitchslaysdnd"
+    ]
+  },
+  "global": {
+    "name": "global",
+    "permissions": [],
+    "members": []
+  }
+}
