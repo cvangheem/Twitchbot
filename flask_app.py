@@ -4,7 +4,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 app = Flask(__name__)
 env = Environment(
     loader=FileSystemLoader('C:/Users/cvang/Documents/Twitch Stream/Working '
-                            'Code/PythonTwitchBotFramework-master/twitchbot/builtin_commands/templates'),
+                            'Code/PythonTwitchBotFramework-master/templates'),
     autoescape=select_autoescape(['html', 'xml'])
 )
 template = env.get_template('bot_overlay.html')
